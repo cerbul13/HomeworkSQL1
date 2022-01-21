@@ -3,10 +3,10 @@ GO
 --DROP DATABASE SIIT_DB
 
 if DB_ID('SIIT_DB') IS NULL
-begin
+BEGIN
 	CREATE DATABASE SIIT_DB
 	Print('Database SIIT_DB created.')
-end
+END
 GO
 
 USE SIIT_DB
